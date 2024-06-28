@@ -9,3 +9,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://eureka-server-2024-ba7f3732a33e.herokuapp.com/eureka/
+  instance:
+    prefer-ip-address: true
