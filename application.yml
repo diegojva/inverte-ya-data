@@ -4,6 +4,10 @@ spring:
     url: jdbc:postgresql://localhost/invertir_ya_db
     username: postgres
     password: sistemas
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
 
 eureka:
   client:
